@@ -185,11 +185,11 @@ class Proyecto {
 
          //Un control contenedor tipo div para gardar colocar boton y título...
         const contenedorHeaderObjetivos = document.createElement('div');
-        contenedorHeaderObjetivos.className = "d-flex justify-content-between align-items-center rounded p-2 bg-opacity-20";
-        contenedorHeaderObjetivos.style.add="background-color: gold"
+        contenedorHeaderObjetivos.className = "d-flex justify-content-between align-items-center rounded p-2";
+        contenedorHeaderObjetivos.style.background="#EAEDED"
 
         const headerObjetivos = document.createElement('h4');
-        headerObjetivos.className = "text-white";
+        headerObjetivos.className = "text-dark";
         headerObjetivos.textContent = 'Objetivos';
 
         const btnObjetivo = document.createElement('button');
