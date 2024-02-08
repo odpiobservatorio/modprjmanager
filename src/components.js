@@ -411,14 +411,17 @@ class Objetivo {
         contenedorObjetivo.className = "mt-3";
 
         const summary = document.createElement('summary');
+        summary.className = "text-secondary";
         summary.textContent = "Objetivos del proyecto / componente";
+
+
 
         const headObjetivo = document.createElement('div');
         headObjetivo.className = "row align-items-end";
 
         const labelTitulo = document.createElement('label');
         labelTitulo.textContent = 'Objetivo';
-        labelTitulo.className = "mb-2";
+        labelTitulo.className = "mb-2 text-secondary";
         const titulo = document.createElement('input');
         titulo.className = "form-control";
         titulo.type = 'text';
